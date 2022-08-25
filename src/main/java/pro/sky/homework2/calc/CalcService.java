@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 public class CalcService {
 
     public String helloCalc() {
-        return "  Добро пожаловать в калькулятор ";
+        return " Добро пожаловать в калькулятор ";
     }
 
     public String plusCalc(int num1, int num2) {
@@ -23,7 +23,7 @@ public class CalcService {
 
     public String divideCalc(double num1, double num2) {
         if (num2 == 0){
-        return " Ошибка!!!  Деление на 0 не возможно ";
+        return " Ошибка!!!  Деление на 0 не возможно! ";
         } else {
             return num1 + " / " + num2 + " = " + (num1 / num2);
         }
