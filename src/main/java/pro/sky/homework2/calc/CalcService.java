@@ -23,7 +23,7 @@ public class CalcService {
 
     public String divideCalc(double num1, double num2) {
         if (num2 == 0){
-        return " Ошибка!!!  Деление на 0 не возможно! ";
+        throw new IllegalArgumentException("Ачибка, на нол дэлить низя! Ваще низя!");
         } else {
             return num1 + " / " + num2 + " = " + (num1 / num2);
         }
